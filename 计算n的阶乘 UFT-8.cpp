@@ -4,11 +4,11 @@ int main()
 {
 	int n = 0, i = 0;
 	int factorial = 1;
-	printf("ÇëÊäÈë n = ");
+	printf("è¯·è¾“å…¥ n = ");
 	scanf_s("%d", &n);
 	for (i = 1; i <= n; i++)
 	{
 		factorial *= i;
 	}
-	printf("%dµÄ½×³ËÎª%d\n", n, factorial);
+	printf("%dçš„é˜¶ä¹˜ä¸º%d\n", n, factorial);
 }
