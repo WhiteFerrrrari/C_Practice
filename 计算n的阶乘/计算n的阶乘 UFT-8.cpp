@@ -11,4 +11,6 @@ int main()
 		factorial *= i;
 	}
 	printf("%d的阶乘为%d\n", n, factorial);
+	
+	Return 0;
 }
