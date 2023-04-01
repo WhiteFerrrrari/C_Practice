@@ -12,4 +12,6 @@ int main()
 		sum += factorial;
 	}
 	printf("%d", sum);
+	
+	Return 0;
 }
