@@ -6,10 +6,10 @@ int main()
 	int n = 0;
 	int sz = sizeof(arr) / sizeof(arr[0]);
 	int right = sz -1, left = 0;
-	printf("ÇëÊäÈëÄãÒª²éÕÒµÄÊı: ");
+	printf("è¯·è¾“å…¥ä½ è¦æŸ¥æ‰¾çš„æ•°: ");
 	scanf_s("%d", &n);
 
-	while (left <= right)//²»ÄÜÊ¹ÓÃ left != right
+	while (left <= right)//ä¸èƒ½ä½¿ç”¨ left != right
 	{ 
 		int mid = (right + left) / 2;
 		if (arr[mid] > n)
@@ -22,16 +22,16 @@ int main()
 		}
 		else
 		{
-			printf("%dµÄÏÂ±êÎª%d\n", n, mid);
+			printf("%dçš„ä¸‹æ ‡ä¸º%d\n", n, mid);
 			break;
 		}
 
 	}
 	if (left > right)
 	{
-		printf("¸ÃÊı×éÖĞÃ»ÓĞÄúÒª²éÕÒµÄÊı\n");
+		printf("è¯¥æ•°ç»„ä¸­æ²¡æœ‰æ‚¨è¦æŸ¥æ‰¾çš„æ•°\n");
 	}
-
-
+	
+	Return 0;
 
 }
